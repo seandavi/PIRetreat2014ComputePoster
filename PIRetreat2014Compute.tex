@@ -7,6 +7,7 @@
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{wrapfig}
 
 \title{Scientific Computing Interest Group}
 \author{Sean Davis, Jeff Shilling, and Carl McCabe}
@@ -65,7 +66,14 @@
 
 % BEGIN THIRD column
     \begin{column}{0.3\linewidth}
-      \begin{block}{Next-Generation Sequencing Analysis}
+      \begin{block}{The CCR Compute Resource}
+        \begin{figure}
+          \begin{center}
+            \includegraphics[width=0.4\linewidth]{20130102-LCP-nodes}
+          \end{center}
+          \caption{A subfigure}
+          \label{fig:biowulf}
+        \end{figure}
         \begin{itemize}
           \item{Import fasta, fastq, ELAND, MAQ, BWA, Bowtie, BAM, gff, bed, wig, and other sequence formats} 
           \item{Trim, transform, align, and manipulate sequences}
